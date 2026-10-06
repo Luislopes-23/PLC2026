@@ -1,0 +1,20 @@
+import resolucao as r
+
+def exemplo():
+  texto_md = """# TPC 1
+
+  ## ENUNCIADO
+
+  Escrever uma Expressão Regular para detetar strings binárias que **não contenham** a sub-string "011"
+
+  ## EXEMPLOS
+
+  1. Strings **detetadas**: `0`, `1`, `1101`, `00101010101` 
+  2. Strings **não detetadas** : `011`, `0011`, `001001000`
+  ## SOLUÇÃO 
+   
+  1*(0|01)*"""
+
+  return r.conversor(texto_md)
+
+print(exemplo())
