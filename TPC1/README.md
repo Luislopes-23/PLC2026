@@ -10,5 +10,5 @@ Escrever uma Expressão Regular para detetar strings binárias que **não conten
 2. Strings **não detetadas** : `011`, `0011`, `001001000`
 
 ## SOLUÇÃO 
- 
+  
 1*(0|01)*
