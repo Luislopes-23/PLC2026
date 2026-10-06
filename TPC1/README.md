@@ -9,6 +9,6 @@ Escrever uma Expressão Regular para detetar strings binárias que **não conten
 1. Strings **detetadas**: `0`, `1`, `1101`, `00101010101` 
 2. Strings **não detetadas** : `011`, `0011`, `001001000`
 
-## SOLUÇÃO
+## SOLUÇÃO 
  
 1*(0|01)*
