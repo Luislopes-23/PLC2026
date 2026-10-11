@@ -14,9 +14,9 @@ select ?nome ?desc where {
 
 ```
 
-Exemplo:
+## EXEMPLO
 
-Se colocarmos o texto mostrado em cima no analisador, o resultado obtido deve ser:
+Se colocarmos o texto mostrado em cima no analisador, o resultado obtido deve ser, por exemplo:
 
 ```
 ('SELECT', 'select', 2, (32, 38))
@@ -48,4 +48,6 @@ Se colocarmos o texto mostrado em cima no analisador, o resultado obtido deve se
 ('NUMERO', '1000', 8, (181, 185))
 ```
 
+## EXPLICAÇÃO
 
+O analisador usa as expressões regulares para identificar cada tipo de token na query, e depois cria um tuplo para cada correspondência encontrada, no formato (TIPO, VALOR, LINHA, POSIÇÕES).
